@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Select Country" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_weight="0"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/au"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/cn"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/ca"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/jp"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/us"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/vn"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/pt"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/in"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/kr"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:src="@drawable/la"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

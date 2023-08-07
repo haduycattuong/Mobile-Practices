@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">THBuoi5_RegisterCoBan</string>
+    <string name="err_name">Please enter valid name</string>
+    <string name="err_tel">Please enter valid phone number</string>
+    <string name="err_email">Please enter valid email</string>
+    <string name="password">You dont have strong enough password</string>
+</resources>

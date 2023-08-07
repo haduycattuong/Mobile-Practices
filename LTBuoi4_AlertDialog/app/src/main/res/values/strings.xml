@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LTBuoi4_AlertDialog</string>
+    <string-array name="color">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>
